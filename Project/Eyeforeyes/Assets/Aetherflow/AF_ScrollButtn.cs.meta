@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c9846cc7a9322124cb6ad0896a638e56
+timeCreated: 1498184787
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - AF_btn: {instanceID: 0}
+  - AF_btnImage1: {fileID: 21300000, guid: f27dc644609d09c4e86f7d7b8f2ea60b, type: 3}
+  - AF_btnImage2: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

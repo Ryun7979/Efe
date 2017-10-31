@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9fbe9cfea6b9f0b42a68d4a90850a3b0
+timeCreated: 1496987348
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ballPrefab: {instanceID: 0}
+  - scoreGUI: {instanceID: 0}
+  - exchangeButton: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
