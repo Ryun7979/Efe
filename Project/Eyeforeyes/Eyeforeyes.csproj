@@ -292,6 +292,39 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Firebase.Editor">
+      <HintPath>Assets\Firebase\Editor\Firebase.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Analytics">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets\Parse\Plugins\Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets\Parse\Plugins\Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.79.0">
+      <HintPath>Assets\PlayServicesResolver\Editor\Google.IOSResolver_v1.2.79.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.79.0">
+      <HintPath>Assets\PlayServicesResolver\Editor\Google.JarResolver_v1.2.79.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets\PlayServicesResolver\Editor\Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.79.0">
+      <HintPath>Assets\PlayServicesResolver\Editor\Google.VersionHandlerImpl_v1.2.79.0.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Eyeforeyes.Plugins.csproj">
@@ -319,6 +352,28 @@
     <Compile Include="Assets\TitleSceneManeger.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Firebase\Editor\AnalyticsDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\FirebaseAnalytics_v5.2.0_manifest.txt" />
+    <None Include="Assets\Firebase\Plugins\link.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.79.0.txt" />
+    <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\Firebase\res\values\google-services.xml" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-unity-5.2.0\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-unity-5.2.0\R.txt" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-unity-5.2.0\proguard.txt" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-app-unity-5.2.0\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-app-unity-5.2.0\R.txt" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-app-unity-5.2.0\proguard.txt" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-common-16.0.0\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-common-16.0.0\R.txt" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-common-16.0.0\proguard.txt" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-common-16.0.0\third_party_licenses.txt" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-iid-16.2.0\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-iid-16.2.0\R.txt" />
+    <None Include="Assets\Plugins\Android\com.google.firebase.firebase-iid-16.2.0\third_party_licenses.txt" />
     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

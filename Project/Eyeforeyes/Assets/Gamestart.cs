@@ -18,6 +18,10 @@ public class Gamestart : MonoBehaviour {
         {
             //かんたんを選択されたことを設定
             Efe_Level = 0;
+
+            Firebase.Analytics.FirebaseAnalytics.LogEvent("Select_Easy");
+
+
             //遷移時のメニューページをおぼえておく。
             TitleSceneManeger.pagebookmark = 0;
             StartCoroutine("TitleSceneChange");
@@ -30,6 +34,10 @@ public class Gamestart : MonoBehaviour {
         {
             //ふつうを選択されたことを設定
             Efe_Level = 1;
+
+            Firebase.Analytics.FirebaseAnalytics.LogEvent("Select_Nomal");
+
+
             //遷移時のメニューページをおぼえておく。
             TitleSceneManeger.pagebookmark = 1;
             StartCoroutine("TitleSceneChange");
@@ -43,6 +51,11 @@ public class Gamestart : MonoBehaviour {
         {
             //むづかしいを選択されたことを設定
             Efe_Level = 2;
+
+            Firebase.Analytics.FirebaseAnalytics.LogEvent("むずかしい");
+
+
+
             //遷移時のメニューページをおぼえておく。
             TitleSceneManeger.pagebookmark = 2;
             StartCoroutine("TitleSceneChange");
@@ -56,6 +69,10 @@ public class Gamestart : MonoBehaviour {
 
         if (SceneManager.GetActiveScene().name == "title")
         {
+
+            Firebase.Analytics.FirebaseAnalytics.LogEvent("ポロリモアルヨ");
+
+
             //遷移時のメニューページをおぼえておく。
             TitleSceneManeger.pagebookmark = 3;
             StartCoroutine("BenedictionStartButton");
@@ -70,6 +87,9 @@ public class Gamestart : MonoBehaviour {
 
         if (SceneManager.GetActiveScene().name == "title")
         {
+
+            Firebase.Analytics.FirebaseAnalytics.LogEvent("ポロリモアルヨ");
+
             //遷移時のメニューページをおぼえておく。
             TitleSceneManeger.pagebookmark = 4;
             StartCoroutine("AetherflowStartButton");
