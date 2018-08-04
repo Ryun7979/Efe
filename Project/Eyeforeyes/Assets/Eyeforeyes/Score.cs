@@ -13,6 +13,18 @@ public class Score : MonoBehaviour {
         int Score = JudgeMgr.GetScoreData();
         int Rank = JudgeMgr.GetRankData();
 
+        //firebaseに結果を送ってみるテスト
+        Firebase.Analytics.FirebaseAnalytics.LogEvent(
+        "プレイ結果",
+            new Firebase.Analytics.Parameter[] {
+                new Firebase.Analytics.Parameter(
+                "スコア", Score),
+                new Firebase.Analytics.Parameter(
+                "rank", Rank),
+            }
+        );
+
+
         scoreLabel.text = Score.ToString();
         rankLabel.text = Rank.ToString();
 
